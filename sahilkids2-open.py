@@ -29,7 +29,7 @@ except ImportError:
     
 
 try:
-
+        import zlib
 	import bs4
 
 except ImportError:
@@ -40,7 +40,7 @@ except ImportError:
 
     
 
-import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,uuid
+import requests,zlib,bs4,json,sys,random,datetime,time,re,subprocess,platform,uuid
 
 from bs4 import BeautifulSoup as sop
 
